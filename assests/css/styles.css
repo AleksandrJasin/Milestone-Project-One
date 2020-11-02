@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-------------------Callout Formating*/
+
+.callout-container {
+   height: 110vh;
+   padding-left: 0;
+   padding-right: 0;
+
+   background: url ('../images/Gym.jpg') no-repeat bottom right fixed;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.jumbotron {
+   background-color: transparent;
+   min-height: 100vh;
+
+}
+
+.jumbotron-header {
+    font-weight: bold;
+
+}
+
+/*-------------------Footer Formating*/
+
+footer {
+   
+    color:#525252;
+    min-height: 120px;
+    margin: 0;
+}
