@@ -5,67 +5,48 @@ body {
 /*-------------------Callout Formating*/
 
 .callout-container {
-  
-
-   background: url ('../images/Gym.jpg');
-   
+   background-image: url ('../images/Gym.jpg');
    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display:flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
-
 }
-
-.jumbotron {
-   background-color: transparent;
-   min-height: 100vh;
-
-}
-
-.jumbotron-header {
-    font-weight: bold;
-
-}
-
 /*-------------------Footer Formating*/
 
-footer {
-   background-color: #525252;
-    color:#fafafa;
-    min-height: 120px;
-    margin: 0;
+.footer-details {
+    background-color: lightgrey;
 }
 
-.social-links li a i {
-    width:20px;
-    height: 20px;
+
+
+.social-links i{
+    width:56px;
+    height: 56px;
     padding: 12px 0;
     border-radius:50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 26px;
+    line-height: 12px;
     text-align: center;
     color: #fafafa;
-    background: #910d0d;
+    vertical-align:center;
+    background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     moz-transition: all 0.35s ease-in-out;
     webkit-transition: all 0.35s ease-in-out;
     o-transition: all 0.35s ease-in-out;
 }
-
-.social-links i:hover{
-    background-color: #e84610;
-}
-ß
-
-}
-
-
 /*-------------------Testimonies Formating*/
 
-media-body
+
+
+.card-container {
+    height: 100;
+}
+
+.callout {
+    margin-top: 10px;
+}
