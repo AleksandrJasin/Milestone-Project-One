@@ -1,15 +1,14 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /*-------------------Callout Formating*/
 
 .callout-container {
-   height: 110vh;
-   padding-left: 0;
-   padding-right: 0;
+  
 
-   background: url ('../images/Gym.jpg') no-repeat bottom right fixed;
+   background: url ('../images/Gym.jpg');
+   
    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,8 +36,36 @@ body {
 /*-------------------Footer Formating*/
 
 footer {
-   
-    color:#525252;
+   background-color: #525252;
+    color:#fafafa;
     min-height: 120px;
     margin: 0;
 }
+
+.social-links li a i {
+    width:20px;
+    height: 20px;
+    padding: 12px 0;
+    border-radius:50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #910d0d;
+    transition: all 0.35s ease-in-out;
+    moz-transition: all 0.35s ease-in-out;
+    webkit-transition: all 0.35s ease-in-out;
+    o-transition: all 0.35s ease-in-out;
+}
+
+.social-links i:hover{
+    background-color: #e84610;
+}
+ß
+
+}
+
+
+/*-------------------Testimonies Formating*/
+
+media-body
