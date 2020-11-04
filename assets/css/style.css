@@ -5,48 +5,135 @@ body {
 /*-------------------Callout Formating*/
 
 .callout-container {
-   background-image: url ('../images/Gym.jpg');
-   -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+height: 40vh;
+  background: url("/images/home-page/gym3.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
+/*-------------------Testimonies Formating*/
+
+.testimonies-container {
+
+}
+
+
+
+
 /*-------------------Footer Formating*/
 
-.footer-details {
-    background-color: lightgrey;
+.footer-container {
+height: 25vh;
+
 }
 
-
+.footer-details {
+  
+   ;
+}
 
 .social-links i{
-    width:56px;
-    height: 56px;
-    padding: 12px 0;
-    border-radius:50%;
-    font-size: 26px;
-    line-height: 12px;
+    width:26px;
+    height: 26px;
+    padding: 6px 0;
+    border-radius:60%;
+    font-size: 18px;
+    line-height: 6px;
     text-align: center;
     color: #fafafa;
     vertical-align:center;
-    background: #8f8f8f;
+    background: lightgray;
     transition: all 0.35s ease-in-out;
     moz-transition: all 0.35s ease-in-out;
     webkit-transition: all 0.35s ease-in-out;
     o-transition: all 0.35s ease-in-out;
 }
-/*-------------------Testimonies Formating*/
 
 
+/*-------------------Jumbotron Formating*/
 
-.card-container {
-    height: 100;
+.jumbotron {
+    background-color: transparent;
 }
 
-.callout {
-    margin-top: 10px;
+.jumbotron-header {
+    color: #fafafa;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.jumbotron-small {
+    font-size:150%;
+    font-style: italic;
+    color: lightgray;
+}
+
+.jumbotron-lead {
+    color: #fafafa;
+    margin-top: 5px;
+}
+
+/*-------------------Join Page Formating*/
+.membership-image {
+  
+height: 100vh;
+  background: url("/images/join-page/join-pic1.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.membership-header {
+    font-weight: bold;
+    color:#fafafa;
+
+}
+
+.membership-lead {
+    color: #fafafa;
+}
+/*-------------------Social-Network Formating*/
+.social-networks {
+  text-align: center;
+}
+.social-networks li{
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #777777;
+  transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+.zoom:hover {
+    transform: scale(2.0)
+}
+@media screen and (max-width: 800px) {
+
+#photo {
+column-count:2;
+}
+
+}
+#photos {
+    column-count: 2;
 }
