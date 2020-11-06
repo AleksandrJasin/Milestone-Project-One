@@ -30,13 +30,9 @@ justify-content: center;
 
 .footer-container {
 height: 25vh;
-
 }
 
-.footer-details {
-  
-   ;
-}
+
 
 .social-links i{
     width:26px;
@@ -55,11 +51,16 @@ height: 25vh;
     o-transition: all 0.35s ease-in-out;
 }
 
+ul {
+    padding: 0;
+}
+
 
 /*-------------------Jumbotron Formating*/
 
 .jumbotron {
     background-color: transparent;
+    max-height: 50
 }
 
 .jumbotron-header {
@@ -107,6 +108,11 @@ justify-content: center;
 .social-networks {
   text-align: center;
 }
+
+.social-networks ul{
+padding-inline-start: 0px;
+scroll-padding-inline-end: 40px;
+}
 .social-networks li{
   display: inline;
 }
@@ -127,13 +133,19 @@ justify-content: center;
 .zoom:hover {
     transform: scale(2.0)
 }
-@media screen and (max-width: 800px) {
 
-#photo {
-column-count:2;
+.image {
+text-align:  center;
+  height: 100%;
+  display: block;
+  margin-top: 5px;
+  width: 100% \9;
+}
+.img-fluid {
+    width: 100% \9;
 }
 
-}
-#photos {
-    column-count: 2;
+
+.social-networks ul {
+    padding-inline-start: 0;
 }
