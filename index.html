@@ -11,6 +11,7 @@
 </head>
 <body>
 <!-- Navigation Tab here -->
+<div class="container-fluid navalert-container">
 <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
     <a href="/" class="navbar-brand">Lucan Fitness</a>
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +23,16 @@
         <li class="active nav-item mr-2"> <a class="nav-link" href="../gallery.html">Gallery</a></li>
     </ul>
 </div>
+
 </nav>
+</div>
 <!-- /.Navigation Tab here -->
 
 
 
 <!-- Main Call out -->
-<div class= "container-fluid callout-container">
+<div class= "container-fluid callout-container mt-3">
+<div class="opague-overlay"></div>
     <div class="row">
         <div class="col-12">
              <section class="callout jumbotron text-center">
@@ -37,7 +41,7 @@
                 <br>
                 <p class="jumbotron-lead">Click <button type="button" class="btn btn-danger btn-lg"> HERE </button> for details!</p>
                 <p class="jumbotron-small">
-				<small>You must be <strong>over 16</strong> to train indvidually. Otherwise admission is with adults only.</small></p>
+				<small class="d-none d-sm-block">You must be <strong>over 16</strong> to train indvidually. Otherwise admission is with adults only.</small></p>
             </section>
        </div>
  </div>
@@ -53,24 +57,24 @@
     </div>
     <div class="row">
         <div class="col-12 col-md-6 col-lg-4">
-                 <div class="media-body">
-                        <div>
+                 <div class="media">
+                        <div class="media-body">
                              <h3 class="text-center"><img src="images/home-page/Mary.png" class="rounded-circle mr-3  d-sm-block rounded mx-auto d-block" height="50" width="50">Marry</h3> 
                              <p class="text-center">The best gym I have ever been a member off. All facilities are brand new, staff friendly and proffesional.</p>
                         </div>
                  </div>
             </div>
         <div class="col-12 col-md-6 col-lg-4">
-                 <div class="media-body">
-                     <div>
+                 <div class="media">
+                     <div class="media-body">
                          <h3 class="text-center"><img src="images/home-page/Sam.png" class="rounded-circle mr-3  d-sm-block rounded mx-auto d-block" height="50" width="50">Sam</h3>
                          <p class="text-center">If you want to get to know people living in your neighbourhood and keep fit - Lucan Fitnesss is the place to go!</p>
                     </div>
                  </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
-            <div class="media-body">
-                     <div>
+            <div class="media">
+                     <div class="media-body">
                          <h3 class="text-center"> <img src="images/home-page/Peter.jpg" class="rounded-circle mr-3  d-sm-block center rounded mx-auto d-block" height="50" width="50">Peter</h3>
                          <p class="text-center">Great location, lots of parking available. Facilities are well looked after - always clean and tidy.</p>
                      </div>
@@ -84,10 +88,10 @@
 <!-- Footer info-->
 <footer>
 <div class="container-fluid">
-<div class="row"></div>
+<div class="row">
 <div class="col-12">
 <div class="social-networks">
-            
+<ul>
                <li>
                  <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square zoom"></i></a>
                </li>
@@ -106,7 +110,7 @@
                <li>
                <a href="https://pinterest.com"> <i class="fab fa-pinterest zoom"></i></a>
                </li>
-             
+      </ul>       
 </div>
 </div>
  </div>
