@@ -48,26 +48,7 @@ height: 25vh;
 }
 
 
-.social-links i{
-    width:26px;
-    height: 26px;
-    padding: 6px 0;
-    border-radius:60%;
-    font-size: 18px;
-    line-height: 6px;
-    text-align: center;
-    color: #fafafa;
-    vertical-align:center;
-    background: lightgray;
-    transition: all 0.35s ease-in-out;
-    moz-transition: all 0.35s ease-in-out;
-    webkit-transition: all 0.35s ease-in-out;
-    o-transition: all 0.35s ease-in-out;
-}
 
-ul {
-    padding: 0;
-}
 
 
 /*-------------------Jumbotron Formating*/
@@ -87,6 +68,7 @@ ul {
 @media screen and (max-device-width:480px){
 .jumbotron-header {
     font-size: 25px;
+}
 }
 .jumbotron-small {
     font-size:150%;
@@ -109,8 +91,6 @@ height: 100vh;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -132,46 +112,47 @@ justify-content: center;
 
 /*-------------------Social-Network Formating*/
 .social-networks {
-  text-align: center;
+ text-align: center;
 }
 
-.social-networks ul{
-padding-inline-start: 0px;
-scroll-padding-inline-end: 40px;
-}
 .social-networks li{
   display: inline;
 }
 
-.social-networks i {
-  font-size: 160%;
+
+.social-networks i{
+font-size: 160%;
   margin: 1%;
   padding: 5%;
   color: #777777;
-  transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-.zoom:hover {
+
+
+
+
+.social-networks i:hover {
     transform: scale(2.0)
 }
+
+
+
+
+
 
 .image {
 text-align:  center;
   height: 100%;
   display: block;
   margin-top: 5px;
-  width: 100% \9;
-}
-.img-fluid {
-    width: 100% \9;
+  background-size:cover;
 }
 
 
-.social-networks ul {
-    padding-inline-start: 0;
-}
+
 
 /*-------------------Gallery Formating*/
 
@@ -185,7 +166,7 @@ text-align:  center;
     width:100%;
 }
 
-@media screen and (max-device-width:480px){
+ @media screen and (max-device-width:480px){
 .gallery-item img {
     height:auto;
     width:100%;
@@ -194,7 +175,7 @@ text-align:  center;
 @media screen and (min-width:481px) and (max-width:600px){
 .gallery-item img {
     height:auto;
-    width:100%;
+    width:auto;
 }
 }
 @media screen and (min-width:601px) and (max-width:1024px){
