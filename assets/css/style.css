@@ -12,8 +12,8 @@ body {
 /*-------------------Callout Formating*/
 
 .callout-container {
-  height: 60vh;
-  max-width: 500px;
+  height: 100vh;
+  width: 100%;
   background: url("/images/home-page/gym3.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,11 +23,13 @@ body {
 display: flex;
 align-items: center;
 justify-content: center;
+
 position: relative;
-padding-top: 50px;
-
 }
-
+.container-fluid {
+    margin: 0;
+    padding-right: 0px;
+}
 .opague-overlay {
     position: absolute;
     top: 0;
@@ -90,13 +92,24 @@ height: 25vh;
     margin-top: 10px;
     padding-top: 5px;
 }
+.membership-jumbotron{
+background-color: transparent;
+    min-height: 200px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 
 /*-------------------Join Page Formating*/
 .membership-image {
   
-height: 100vh;
-  background: url("/images/join-page/join-pic1.jpg") no-repeat bottom right fixed; 
+ height: 100%;
+  background: url("/images/join-page/join-pic1.jpg") no-repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -104,8 +117,11 @@ height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
-
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 
 .membership-header {
     font-weight: bold;
@@ -201,10 +217,11 @@ text-align:  center;
     width:100%;
 }
 }
-
+/*-------------------Navbar Formating*/
 .navalert-container {
     padding-left: 0;
     padding-right: 0;
+    background-color: black;
 }
 
 
